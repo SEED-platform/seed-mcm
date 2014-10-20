@@ -1,12 +1,7 @@
-![CircleCI Status][]
-
-[CircleCI Status]: https://circleci.com/gh/buildingenergy/mcm-core.png?circle-token=e0d90d702fb615d2a6ab2ce2dbaa05a173ca06a1
-
-
-mcm-core
+seed-mcm
 ========
 
-Core MCM - Map Clean Merge
+File import module for the [SEED Platform](http://www.github.com/SEED-platform/seed); provides core functionality of "Map, Clean, Merge" (MCM)
 
 
 
@@ -29,7 +24,7 @@ MCM has two main peices, a reader and a mapper.
   * Concatenate rows together with a specified delimiter character.
   * Data which doesn't match a given schema's mapping is still saved. It's put in a dictionary called ``extra_data``.
 
-
+<!---
 Installing
 ----------
 
@@ -37,6 +32,7 @@ Once it's hosted on Pypi:
 ```bash
     pip install mcm
 ```
+--->
 
 Integration
 -----------
